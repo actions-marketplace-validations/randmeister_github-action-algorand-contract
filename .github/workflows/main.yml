@@ -1,0 +1,15 @@
+on: [push]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Test this action
+    steps:
+    - name: Call action
+      id: call
+      uses: ./
+      with:
+        purestake_api_key: 'Mona the Octocat'
+    # Use the output from the `hello` step
+    - name: Get the output time
+      run: echo "The time was ${{ steps.call.outputs.time }}"

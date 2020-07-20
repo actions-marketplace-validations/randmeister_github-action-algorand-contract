@@ -19,3 +19,10 @@ The time we greeted you.
 uses: randmeister/github-action-algorand-contract@v1
 with:
   purestake_api_eky: 'SomeKey'
+
+
+## Development
+
+### Requirements
+
+- https://github.com/nektos/act
