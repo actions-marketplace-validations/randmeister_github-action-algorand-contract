@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Call action
       id: call
-      uses: ./action.yml
+      uses: randmeister/github-action-algorand-contract@master
       with:
         purestake_api_key: 'Mona the Octocat'
     # Use the output from the `hello` step
