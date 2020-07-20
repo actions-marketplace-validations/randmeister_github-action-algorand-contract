@@ -1,3 +1,5 @@
+![.github/workflows/main.yml](https://github.com/randmeister/github-action-algorand-contract/workflows/.github/workflows/main.yml/badge.svg)
+
 # Algorand Contract Github Action
 
 This action prints "Hello World" or "Hello" + the name of a person to greet to the log.
