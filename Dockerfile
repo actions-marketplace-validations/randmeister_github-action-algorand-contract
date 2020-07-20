@@ -20,7 +20,7 @@ RUN \
   mkdir /opt/installer ; \
   cd /opt/installer ; \
   tar xvf /tmp/install*tar.gz ; \
-  ./update.sh -i -c $channel -p /opt/algorand/node -d /opt/algorand/node/data.tmp -n ; \
+  ./update.sh -i -c stable -p /opt/algorand/node -d /opt/algorand/node/data.tmp -n ; \
   rm -rf /opt/algorand/node/data.tmp ; \
   mkdir /opt/algorand/node/data
 
