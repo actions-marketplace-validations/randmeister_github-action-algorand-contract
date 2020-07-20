@@ -1,10 +1,10 @@
 name: 'Algorand Contract'
 description: 'Deploy Algorand smart contract'
 inputs:
-  purstake_api_key:  # id of input
-    description: 'p'
-    required: true
-    default: '1234'
+  purestake_api_key:  # id of input
+  description: 'p'
+  required: true
+  default: '1234'
 outputs:
   time: # id of output
     description: 'The time we greeted you'

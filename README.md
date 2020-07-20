@@ -16,6 +16,6 @@ The time we greeted you.
 
 ## Example usage
 
-uses: actions/github-action-algorand-contract@v1
+uses: randmeister/github-action-algorand-contract@v1
 with:
   purestake_api_eky: 'SomeKey'
