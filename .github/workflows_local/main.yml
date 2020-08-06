@@ -9,7 +9,7 @@ jobs:
       id: call
       uses: ./
       with:
-        purestake_api_key: 'Mona the Octocat'
+        purestake_api_key: 'ZZgxGlQUKz5JKY6QzorBAfo81cLiWzG1hUxxxxxx'
     # Use the output from the `hello` step
     - name: Get the output time
       run: echo "The time was ${{ steps.call.outputs.time }}"

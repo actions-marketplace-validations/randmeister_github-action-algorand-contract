@@ -3,7 +3,7 @@ description: 'Deploy Algorand smart contract'
 inputs:
   purestake_api_key:  # id of input
     description: 'p'
-    required: true
+    required: false
     default: '1234'
 outputs:
   time: # id of output
